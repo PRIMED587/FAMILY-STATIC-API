@@ -1,4 +1,5 @@
 from flask import jsonify, url_for
+from src.utils import generate_sitemap
 
 
 class APIException(Exception):
